@@ -1,0 +1,12 @@
+const int ledPin = 13; // Пин, к которому подключен светодиод
+
+void setup() {
+  pinMode(ledPin, OUTPUT); // Устанавливаем пин светодиода на вывод
+}
+
+void loop() {
+  digitalWrite(ledPin, HIGH); // Включаем светодиод
+  delay(1000); // Пауза 1 секунда
+  digitalWrite(ledPin, LOW); // Выключаем светодиод
+  delay(1000); // Пауза 1 секунда
+}
